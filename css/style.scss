@@ -1,0 +1,75 @@
+// Import RESET.scss File Here.....
+@import '_reset.scss';
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+#navbar-section{
+    
+    // Search Box Design Here......
+    .search-form{
+        .btn{
+            right: 0;
+            border: 0;
+        }
+        .btn:hover{
+            border: 0;
+        }
+    input{
+        border: none;
+        background-color: #F1F1F1;
+    }
+    input::placeholder{
+        font-style: italic;
+    }
+    input:focus{
+        box-shadow: none !important;
+    }
+    button{
+        color: #BABABA;
+    }
+    }
+
+    .nav-link{
+        color: #707070;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 400;
+    }
+    
+}
+
+#slider-section{
+    margin-top: 6rem !important; 
+    .carousel-item{
+        min-height: 400px;
+        border-radius: 25px;
+    }
+
+    p{
+        color: #4E4E4E;
+    }
+    button{
+        border-radius: 0;
+        margin-top: 1rem;
+    }
+}
+
+#catagory-section{
+    .catagory-item{
+        min-height: 150px;
+    }
+}
+#article{
+    padding: 4rem 0;
+    background-color: #F4F4F4;
+    #shooes{
+        .card{
+            min-height: 500px;
+        }
+    }
+}
+
+
+
